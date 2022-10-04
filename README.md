@@ -7,3 +7,7 @@ Vehicle Plate Recognition System project
 - For each vehicle find number plate with OpenCV CascadeClassifier
 - Plate text recognition with TF-ANPR
 - Register vehicle arrival and department in DB
+
+# Data:
+- open datasets
+- data scrapping
