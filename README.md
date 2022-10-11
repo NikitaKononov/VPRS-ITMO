@@ -4,7 +4,7 @@ Vehicle Plate Recognition System project
 Prepare:
 ```bash
 conda create -n vprs python=3.7
-conda avtivate vprs
+conda activate vprs
 pip3 install -r requirements.txt 
 ```
 Run:
