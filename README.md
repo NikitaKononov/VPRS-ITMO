@@ -1,13 +1,17 @@
 # VPRS-ITMO
 Vehicle Plate Recognition System project
 
-# Pipeline:
-- Get frame from video stream (imitated)
-- Find vehicles bounding boxes with YoloV4
-- For each vehicle find number plate with OpenCV CascadeClassifier
-- Plate text recognition with TF-ANPR
-- Register vehicle arrival and department in DB
+Prepare:
+```bash
+conda create -n vprs python=3.7
+conda avtivate vprs
+pip3 install -r requirements.txt 
+```
+Run:
+```bash
+python demo.py
+```
 
-# Data:
-- open datasets
-- data scrapping
+Resulting log webpage is in web/ folder
+
+![img.png](img.png)
