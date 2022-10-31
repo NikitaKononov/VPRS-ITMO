@@ -1,8 +1,6 @@
 # VPRS-ITMO
 Vehicle Plate Recognition System project
 
----
-
 Prepare:
 ```bash
 conda create -n vprs python=3.6
@@ -20,7 +18,6 @@ Resulting log webpage is in web/ folder
 
 # Experiments we've done:
 
----
 
 - OpenCV cascade classifier to detect car bboxes: 
 ![img_1.png](misc/img_1.png)
@@ -36,7 +33,6 @@ Resulting log webpage is in web/ folder
 
 # Experiments setup:
 
----
 
 Hardware 
 - CPU count: 1 Ryzen 4600H
@@ -45,7 +41,6 @@ All experiments were performed on a Ryzen 4600H CPU. For a faster recognition pr
 
 # Metrics
 
----
 
 * IoU - metric, which changes in the range from 0 to 1, shows how much
   the so-called coverage area coincides with two objects (reference (ground true) and current).
@@ -54,7 +49,6 @@ All experiments were performed on a Ryzen 4600H CPU. For a faster recognition pr
   
 # Prediction speed
 
----
 - The processing time of one image, on which there are up to 5 cars,
 on which license plates are visible, is approximately 5 seconds per CPU
 
@@ -62,7 +56,6 @@ on which license plates are visible, is approximately 5 seconds per CPU
   
 # Сhoosing the best model
 
----
 
 1.  Detector we used YOLOv5
 
