@@ -45,6 +45,7 @@ All experiments were performed on a Ryzen 4600H CPU. For a faster recognition pr
 * IoU - metric, which changes in the range from 0 to 1, shows how much
   the so-called coverage area coincides with two objects (reference (ground true) and current).
   Ideal value 1. Used to determine the correct detection of cars and license plates
+
 ![img_6.png](misc/img_6.png)
   
 # Prediction speed
